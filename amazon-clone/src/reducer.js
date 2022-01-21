@@ -26,7 +26,7 @@ const reducer = (state, action) => {
                 newBasket.splice(index, 1);
             } else {
                 console.warn(
-                    'Cant remove product (id: ${action.id}) as its not in the basket!'
+                    `Cant remove product (id: ${action.id}) as its not in the basket!`
                 )
             }
             

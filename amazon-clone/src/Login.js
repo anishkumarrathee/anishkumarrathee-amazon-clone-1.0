@@ -10,7 +10,7 @@ function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    /*const signIn = e => {
+    const signIn = e => {
         e.preventDefault();
 
         auth
@@ -19,7 +19,7 @@ function Login() {
                 history.push('/')
             })
             .catch(error => alert(error.message))
-    }*/
+    }
 
     const register = e => {
         e.preventDefault();

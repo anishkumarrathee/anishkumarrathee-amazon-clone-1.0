@@ -7,7 +7,7 @@ import Subtotal from "./Subtotal";
 
 //Dispatch not needed
 function Checkout() {
-    const [{ basket }, dispatch] = useStateValue();
+    const [{ basket, user }, dispatch] = useStateValue();
 
     return (
         <div className="checkout">
@@ -18,6 +18,7 @@ function Checkout() {
                     alt=""
                 />
                 <div>
+                    <h3>Hello, {user?.email}</h3>
                     <h2 className="checkout__tittle">
                         Your Shopping Basket
                     </h2>

@@ -1,4 +1,4 @@
-# https---github.com-anishkumarrathee-amazon-clone-1.0
+# anishkumarrathee-amazon-clone-1.0
 
 This project was bootstrapped with Create React App.
 
